@@ -1,0 +1,131 @@
+
+/*
+fitting all images in the gallery div class (index.html) to screen size
+Applying filter to apply gray scale to all images in the gallery div class by default (100% grayscale)
+*/
+.gallery img{
+    width: 100%;
+    filter: grayscale(100%)
+}
+
+/*
+Applying filter to remove gray scale effect from all images in the gallery div class upon hovering over the image
+so a user can have a visual indication of which image/character they are selecting
+*/
+.gallery img:hover{
+    filter: grayscale(0%); 
+}
+
+/*
+setting the width and height of the menu bar to 100 pixels (width) and 40 pixels (height)
+setting the menu bar colour to cornflower blue
+adding a padding of 20 pixels/spacing to the top of the menu bar
+*/
+#menu{
+    width:100%;
+    height:40px;
+    background-color: cornflowerblue;
+    padding-top: 12px;
+}
+
+/*
+Modifying the visiual properties of the anchor/ a tags/hyperlinks 
+represented in the menu bar. Modifying the font, font size, removing underlining from
+the hyperlinks text-decoration:none; and changing the thickness of the font - font-weight: 800px;
+*/
+#menu a{
+    color:#ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration:none;
+    font-weight: 800px;
+    
+    /*
+    adding a padding of 20 pixels to the left
+    */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*
+Applying a color effect to the anchor/a tags/hyperlinks when hovering the cursor over the links
+change color to #5077bd
+*/
+#menu a:hover{
+     color: #5077bd;
+}
+
+/*
+applying the color - aqua (color:rgb(35, 204, 196) to the release-list ordered list
+applying the font family font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+changing the font size to - xx-large
+*/
+#release-list ol{
+    color:rgb(35, 204, 196);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+
+/*
+modifying release-list properties when hovering
+when hovering over the text in the release list the color]
+is expected to change to gray - rgba(0, 0, 0, 0.404)
+*/
+#release-list ol:hover {
+    color:rgba(0, 0, 0, 0.404)
+}
+
+/* 
+Adjust the width of image 
+*/
+#play-icon {
+    width: 50px; 
+    height: auto; 
+}
+
+/*
+setting the color of the hyperlink - watch now to lime
+setting the font of the hyperlink to Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+changing the font size from the default size to xx-large
+text-decoration: none removes the underline from the hyperlink
+*/
+#watch-now a{
+    color:rgb(118, 219, 23);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    text-decoration: none;
+}
+/*
+Applying color to the watch now hyperlink when hovering the cursor over the hyperlink
+*/
+#watch-now a:hover {
+    color: rgb(7, 70, 26); 
+}
+
+/*
+Applying color and removing underline from see-movie-ratings from the hyperlink
+*/
+#see-movie-ratings a{
+    text-decoration: none;
+    color: rgb(7, 70, 26); 
+}
+
+/*
+Applying color to all h2-based text
+*/
+h2 {
+    color:darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+}
+
+/*
+Applying color to all h4-based text
+setting all h4-based text font to font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+setting all h4 based text to font size xx-large
+*/
+h4 {
+    color:rgba(0, 4, 58, 0.76);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+}
